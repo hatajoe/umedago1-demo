@@ -1,0 +1,6 @@
+nginx:
+  image: nginx
+  ports:
+   - "${PORT1}:80"
+  volumes: 
+    - ./public/:/usr/share/nginx/html/
